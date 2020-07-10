@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Reordering using Direct Manipulation</title>
+	<link rel="stylesheet" href="css/style.css">
+
+  	<script src="https://d3js.org/d3.v5.min.js"></script>
+  	<script src="https://d3js.org/d3-array.v2.min.js"></script>
+	<script src="js/model/dataModel.js" charset="UTF-8"></script>
+	<script src="js/view/simpleBarChart.js" charset="UTF-8"></script>
+	<script src="js/viewmodel/simpleBarChartOrdering.js" charset="UTF-8"></script>
+	<script src="js/main.js"></script>
+  	
+</head>
+<body onload="App.init('demos', 'taskDescText', 'taskInstructionsText')">
+	<div id="titlePane"> Direct Manipulation based Re-Ordering </div>
+	<div id="visPane">
+		<div id="descriptionPane">
+			<label id="taskDesc" class="subheader"> Description:</label><br>
+			<label id="taskDescText" class="taskText">
+			</label><br>
+			<label id="taskInstructions" class="subheader"> Instructions:</label><br>
+			<label id="taskInstructionsText" class="taskText">
+			</label><br>
+		</div>
+		<div id="displayPane">
+		</div>
+	</div>
+</body>
+</html>
